@@ -1,0 +1,8 @@
+.operatorButton {
+    background-color: #48aad4;
+    border: 1px solid #237293;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}

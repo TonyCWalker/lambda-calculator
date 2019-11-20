@@ -1,15 +1,22 @@
+.logo-container {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
 .container {
-    background-color: #c00025;
+    background-color: #a70123;
     width: 100%;
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
 }
+
 .display {
     margin-top: 25px;
+    margin-left: 20px;
     height: 100px;
-    width: 450px;
+    width: 500px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -20,3 +27,33 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+  
+  .calcButton {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: white;
+    font-size: 28px;
+    box-shadow: 1px 3px #420108;
+    margin: 10px 10px;
+    outline: none;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.leftButtons {
+    width: 65%;
+    padding-left: 40px;
+}
+
+.rightButtons {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+}
